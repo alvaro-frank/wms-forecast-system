@@ -1,0 +1,6 @@
+[submodule "wms-forecast"]
+	path = wms-forecast
+	url = https://github.com/alvaro-frank/wms-forecast
+[submodule "wms-forecast-backend"]
+	path = wms-forecast-backend
+	url = https://github.com/alvaro-frank/wms-forecast-backend
