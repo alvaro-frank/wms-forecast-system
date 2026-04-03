@@ -7,3 +7,16 @@ services:
       - "8000:8000"
     container_name: wms-forecast-api
     restart: unless-stopped
+    volumes:
+      - ./wms-forecast-backend/data:/app/data
+  
+  frontend:
+    build:
+      context: ./wms-forecast-frontend
+      dockerfile: Dockerfile
+    container_name: wms_frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
