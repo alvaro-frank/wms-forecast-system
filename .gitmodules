@@ -4,3 +4,6 @@
 [submodule "wms-forecast-backend"]
 	path = wms-forecast-backend
 	url = https://github.com/alvaro-frank/wms-forecast-backend
+[submodule "wms-forecast-frontend"]
+	path = wms-forecast-frontend
+	url = https://github.com/alvaro-frank/wms-forecast-frontend.git
