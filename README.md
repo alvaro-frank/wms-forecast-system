@@ -40,8 +40,9 @@ cd wms-forecast-master
 docker-compose up --build
 ```
 
-3. **Access API Documentation**:
+3. **Access the Ecosystem**:
 
-Once running, visit `http://localhost:8000/docs` to test the prediction endpoints via the Swagger UI.
+- **Frontend Dashboard**: Visit `http://localhost:8080` to use the interactive forecasting UI.
+- **API Documentation**: Visit `http://localhost:8000/docs` to test the prediction endpoints directly via the Swagger UI.
 
 Developed by Álvaro Franco - [LinkedIn](https://www.linkedin.com/in/alvaro-jose-franco/) | [GitHub](https://github.com/alvaro-frank)
