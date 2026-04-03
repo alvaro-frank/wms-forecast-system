@@ -12,7 +12,7 @@ This project is organized into specialized repositories, linked here as **Git Su
 |-----------|-------------|------------|------------|
 | **AI Training** | Data processing, feature engineering, and training of forecasting models. | Python, Pandas, Scikit-Learn | [Explore](https://github.com/alvaro-frank/wms-forecast) |
 | **Backend API** | High-performance inference service exposing models for consumption. | Python, FastAPI, Docker | [Explore](https://github.com/alvaro-frank/wms-forecast-backend) |
-| **Frontend UI** | *[Planned]* Interactive dashboard for forecast visualization and metrics. | React / Next.js | [TBD] |
+| **Frontend UI** | Interactive dashboard for forecast visualization, featuring dynamic parameters and trend charts. | React, TypeScript, Vite, Recharts | [Explore](https://github.com/alvaro-frank/wms-forecast-frontend) |
 
 ---
 
